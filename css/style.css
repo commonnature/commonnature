@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Bodoni+Moda);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+html {
+	overflow-x: hidden;
+}
+
+.navbar {
+	background-color: transparent;
+	position:absolute;
+	width:100%;
+}
+
+nav .nav li a{
+  color: #fff;
+  }
+  
+nav .nav li a:hover{
+  color: #c8e4fe;
+  }
+  
+  nav .nav li a:visited{
+  color: #fff;
+  }
+
+.carousel {
+    position:absolute;
+    top:0;   
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.carousel-inner .carousel-item img {
+min-height:300px;
+object-fit:cover
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+	background-color: #f9f4e7;
+    padding-top: 500px;
+    padding-bottom: 0px;
+}
+
+h1 {
+	font-family: 'Bodoni Moda', sans-serif;
+	font-weight: 200;
+	color: #000;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: 'Bodoni Moda', sans-serif;
+	font-weight: 200;
+	color: #000;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Bodoni Moda', sans-serif;
+	font-weight: 200;
+	color: #fff;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+p {
+	font-family: 'Bodoni Moda', serif;
+	font-weight:300;
+}
+
+p1 {
+	font-family: 'Bodoni Moda', serif;
+	font-weight:300;
+	font-size: 15px;
+}
+
+
+p2 {
+	font-family: 'Bodoni Moda', serif;
+	font-weight:300;
+	color: #fff;
+	font-size: 17px;
+}
+
+section {
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+
+img {
+	margin-left:auto
+
+}
+
+.img1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.img2 {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	bottom: 37px;
+	opacity: 0.37;
+}
+
+.img2:hover {
+	opacity: 0.67;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:hover {
+	color: #c8e4fe;
+}
+
+a:visted {
+	color: #fff;
+}
+
+a:active {
+	color: #5e7a94;
+}
+
+.big-letter p:first-child:first-letter { 
+	font-size: 400%;
+	float: left; 
+	color: #000; 
+	line-height: 80%;
+	margin-top: 2px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+footer {
+	background-color:  #00122e;
+	padding-bottom: 0px;
+}
+
+footer p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	font-size: 70%;
+	color: #fff;
+	text-align: center;
+}
